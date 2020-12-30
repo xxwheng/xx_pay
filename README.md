@@ -4,6 +4,17 @@ Alipay iOS-Swift plugin project.
 
 ## Getting Started
 
+### 引入包后，需要在项目 ios/podfile中添加以下内容
+```pre_install do |installer|
+# workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+end
+```
+
+
+---
+
+
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.20.0"

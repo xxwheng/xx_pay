@@ -13,7 +13,6 @@ A new flutter plugin project.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'wanghengbai@126.com' }
   s.source           = { :path => '.' }
-  
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   # 若UTDID冲突， 可手动引入无UTDID版本
