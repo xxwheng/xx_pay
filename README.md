@@ -1,6 +1,6 @@
 # xx_pay
 
-A new flutter plugin project.
+Alipay iOS-Swift plugin project.
 
 ## Getting Started
 
