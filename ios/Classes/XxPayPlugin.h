@@ -7,6 +7,5 @@
 #import <Flutter/Flutter.h>
 #import <AlipaySDK/AlipaySDK.h>
 
-
 @interface XxPayPlugin : NSObject<FlutterPlugin>
 @end
