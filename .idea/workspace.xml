@@ -20,16 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/alipay_result_bean.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/alipay_result_bean.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/xx_pay.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/test/xx_pay_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/test/xx_pay_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xx_pay.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/xx_pay_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/xx_pay_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609297967186</updated>
-      <workItem from="1609297974582" duration="6310000" />
+      <workItem from="1609297974582" duration="7278000" />
     </task>
     <servers />
   </component>
@@ -90,21 +88,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1580" height="256" key="GridCell.Tab.0.bottom" timestamp="1609315088780">
+    <state width="1580" height="132" key="GridCell.Tab.0.bottom" timestamp="1609320048475">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="256" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1609315088780" />
-    <state width="1580" height="256" key="GridCell.Tab.0.center" timestamp="1609315088779">
+    <state width="1580" height="132" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1609320048475" />
+    <state width="1580" height="132" key="GridCell.Tab.0.center" timestamp="1609320048474">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="256" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1609315088779" />
-    <state width="1580" height="256" key="GridCell.Tab.0.left" timestamp="1609315088778">
+    <state width="1580" height="132" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1609320048474" />
+    <state width="1580" height="132" key="GridCell.Tab.0.left" timestamp="1609320048474">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="256" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1609315088778" />
-    <state width="1580" height="256" key="GridCell.Tab.0.right" timestamp="1609315088779">
+    <state width="1580" height="132" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1609320048474" />
+    <state width="1580" height="132" key="GridCell.Tab.0.right" timestamp="1609320048475">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="256" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1609315088779" />
+    <state width="1580" height="132" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1609320048475" />
   </component>
 </project>

@@ -4,6 +4,10 @@ Alipay iOS-Swift plugin project.
 
 ## Getting Started
 
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
 This project is a starting point for a Flutter
 [plug-in package](https://flutter.dev/developing-packages/),
 a specialized package that includes platform-specific implementation code for

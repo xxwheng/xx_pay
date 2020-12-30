@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
 
   void _onPay() {
     XxPay.aliPay("orderStr", "scheme").then((value) {
-      this.result = value;
+      this.result = value.message;
       setState(() {});
     });
   }

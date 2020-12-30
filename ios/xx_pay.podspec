@@ -20,7 +20,7 @@ A new flutter plugin project.
   # https://opendocs.alipay.com/open/54/104509
   s.dependency 'AlipaySDK-iOS'
   s.dependency 'SwiftyJSON'
-  s.platform = :ios, '8.0'
+  s.platform = :ios, '9.0'
 
 
 
