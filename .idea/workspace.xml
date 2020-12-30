@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1mMKLuEIk4BoDpmuq1692dYZ6NV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="" />
+      <created>1609297967186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609297967186</updated>
+      <workItem from="1609297974582" duration="4339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1580" height="256" key="GridCell.Tab.0.bottom" timestamp="1609315088780">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1580" height="256" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1609315088780" />
+    <state width="1580" height="256" key="GridCell.Tab.0.center" timestamp="1609315088779">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1580" height="256" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1609315088779" />
+    <state width="1580" height="256" key="GridCell.Tab.0.left" timestamp="1609315088778">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1580" height="256" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1609315088778" />
+    <state width="1580" height="256" key="GridCell.Tab.0.right" timestamp="1609315088779">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1580" height="256" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1609315088779" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+PODS:
+  - AlipaySDK-iOS (15.7.9)
+  - Flutter (1.0.0)
+  - SwiftyJSON (5.0.0)
+  - xx_pay (0.0.1):
+    - AlipaySDK-iOS
+    - Flutter
+    - SwiftyJSON
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - xx_pay (from `.symlinks/plugins/xx_pay/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  xx_pay:
+    :path: ".symlinks/plugins/xx_pay/ios"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  xx_pay: 961c86e4c75db70d4a35f27533ff64b8437c9194
+
+PODFILE CHECKSUM: 1695a545dca65ba6ecdbce51714593c30b6c984a
+
+COCOAPODS: 1.9.3
