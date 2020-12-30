@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609297967186</updated>
       <workItem from="1609297974582" duration="7278000" />
-      <workItem from="1609323165771" duration="326000" />
+      <workItem from="1609323165771" duration="966000" />
     </task>
     <servers />
   </component>
@@ -90,21 +83,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1580" height="132" key="GridCell.Tab.0.bottom" timestamp="1609320048475">
+    <state width="1580" height="387" key="GridCell.Tab.0.bottom" timestamp="1609323505363">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="132" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1609320048475" />
-    <state width="1580" height="132" key="GridCell.Tab.0.center" timestamp="1609320048474">
+    <state width="1580" height="387" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1609323505363" />
+    <state width="1580" height="387" key="GridCell.Tab.0.center" timestamp="1609323505357">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="132" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1609320048474" />
-    <state width="1580" height="132" key="GridCell.Tab.0.left" timestamp="1609320048474">
+    <state width="1580" height="387" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1609323505357" />
+    <state width="1580" height="387" key="GridCell.Tab.0.left" timestamp="1609323505355">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="132" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1609320048474" />
-    <state width="1580" height="132" key="GridCell.Tab.0.right" timestamp="1609320048475">
+    <state width="1580" height="387" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1609323505355" />
+    <state width="1580" height="387" key="GridCell.Tab.0.right" timestamp="1609323505360">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1580" height="132" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1609320048475" />
+    <state width="1580" height="387" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1609323505360" />
   </component>
 </project>
