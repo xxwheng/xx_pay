@@ -34,9 +34,9 @@ class AlipayManager: NSObject {
     ///   - orderStr: 支付订单信息
     ///   - scheme: scheme
     public func pay(orderStr: String, scheme: String) {
-//        AlipaySDK.defaultService()?.payOrder(orderStr, fromScheme: scheme, callback: { (res) in
-//            AlipayManager.instance.handlePayRes(res: res);
-//        });
+        AlipaySDK.defaultService()?.payOrder(orderStr, fromScheme: scheme, callback: { (res) in
+            AlipayManager.instance.handlePayRes(res: res);
+        });
     }
 
     /// 处理支付宝支付回调参数
@@ -53,9 +53,9 @@ class AlipayManager: NSObject {
     }
 
     public func handleOpenURL(url: URL) {
-//        AlipaySDK.defaultService()?.processOrder(withPaymentResult: url, standbyCallback: { (res) in
-//            AlipayManager.instance.handlePayRes(res: res);
-//        })
+        AlipaySDK.defaultService()?.processOrder(withPaymentResult: url, standbyCallback: { (res) in
+            AlipayManager.instance.handlePayRes(res: res);
+        })
     }
 
 }
