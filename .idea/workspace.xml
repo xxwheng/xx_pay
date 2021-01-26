@@ -21,6 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/AppManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AppManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -64,6 +72,7 @@
       <updated>1609297967186</updated>
       <workItem from="1609297974582" duration="7278000" />
       <workItem from="1609323165771" duration="1187000" />
+      <workItem from="1611651607716" duration="2768000" />
     </task>
     <servers />
   </component>

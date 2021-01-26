@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2A44313425C01A31007803D9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313325C01A31007803D9 /* libc++.tbd */; };
+		2A44313625C01A37007803D9 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313525C01A37007803D9 /* libz.tbd */; };
+		2A44313825C01A3E007803D9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313725C01A3E007803D9 /* SystemConfiguration.framework */; };
+		2A44313A25C01A44007803D9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313925C01A44007803D9 /* CoreTelephony.framework */; };
+		2A44313C25C01A4C007803D9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313B25C01A4C007803D9 /* QuartzCore.framework */; };
+		2A44313E25C01A55007803D9 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313D25C01A54007803D9 /* CoreText.framework */; };
+		2A44314025C01A5C007803D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44313F25C01A5C007803D9 /* CoreGraphics.framework */; };
+		2A44314225C01A64007803D9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44314125C01A64007803D9 /* CFNetwork.framework */; };
+		2A44314425C01A6B007803D9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A44314325C01A6B007803D9 /* CoreMotion.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		68DBF37071693E9646F2B8BB /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1102380F317A1DFE51680EB7 /* libPods-Runner.a */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
@@ -34,6 +43,15 @@
 		1102380F317A1DFE51680EB7 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		2A44313325C01A31007803D9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2A44313525C01A37007803D9 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2A44313725C01A3E007803D9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2A44313925C01A44007803D9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2A44313B25C01A4C007803D9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2A44313D25C01A54007803D9 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2A44313F25C01A5C007803D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A44314125C01A64007803D9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2A44314325C01A6B007803D9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +72,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A44314425C01A6B007803D9 /* CoreMotion.framework in Frameworks */,
+				2A44314225C01A64007803D9 /* CFNetwork.framework in Frameworks */,
+				2A44314025C01A5C007803D9 /* CoreGraphics.framework in Frameworks */,
+				2A44313E25C01A55007803D9 /* CoreText.framework in Frameworks */,
+				2A44313C25C01A4C007803D9 /* QuartzCore.framework in Frameworks */,
+				2A44313A25C01A44007803D9 /* CoreTelephony.framework in Frameworks */,
+				2A44313825C01A3E007803D9 /* SystemConfiguration.framework in Frameworks */,
+				2A44313625C01A37007803D9 /* libz.tbd in Frameworks */,
+				2A44313425C01A31007803D9 /* libc++.tbd in Frameworks */,
 				68DBF37071693E9646F2B8BB /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,6 +146,15 @@
 		F82EC97700B29C7277C75F0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2A44314325C01A6B007803D9 /* CoreMotion.framework */,
+				2A44314125C01A64007803D9 /* CFNetwork.framework */,
+				2A44313F25C01A5C007803D9 /* CoreGraphics.framework */,
+				2A44313D25C01A54007803D9 /* CoreText.framework */,
+				2A44313B25C01A4C007803D9 /* QuartzCore.framework */,
+				2A44313925C01A44007803D9 /* CoreTelephony.framework */,
+				2A44313725C01A3E007803D9 /* SystemConfiguration.framework */,
+				2A44313525C01A37007803D9 /* libz.tbd */,
+				2A44313325C01A31007803D9 /* libc++.tbd */,
 				1102380F317A1DFE51680EB7 /* libPods-Runner.a */,
 			);
 			name = Frameworks;
@@ -373,6 +409,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = NNWZA9N69A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,6 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = NNWZA9N69A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
+				DEVELOPMENT_TEAM = NNWZA9N69A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

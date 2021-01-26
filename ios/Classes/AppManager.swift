@@ -16,6 +16,7 @@ public class AppManager {
     static let instance = AppManager()
 
     public func handleOpenURL(url: URL) -> Bool {
+        print(url)
         if (url.host == "safepay") {
             AlipayManager.instance.handleOpenURL(url: url);
         }

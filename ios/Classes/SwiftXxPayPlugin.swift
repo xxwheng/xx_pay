@@ -25,6 +25,7 @@ public class SwiftXxPayPlugin: NSObject, FlutterPlugin {
     /// ------------ *********  app周期代理函数  ********* ------------
 
     public func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
+        print(url)
         return AppManager.instance.handleOpenURL(url: url);
     }
 
@@ -34,6 +35,7 @@ public class SwiftXxPayPlugin: NSObject, FlutterPlugin {
 
     //    NOTE: 9.0以后使用新API接口
     public func application(_ application: UIApplication, open url: URL, sourceApplication: String, annotation: Any) -> Bool {
+        print(url)
         return AppManager.instance.handleOpenURL(url: url);
     }
 
