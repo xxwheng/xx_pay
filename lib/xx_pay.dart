@@ -1,4 +1,3 @@
-
 import 'dart:async';
 import 'dart:io';
 
@@ -30,14 +29,14 @@ class XxPay {
   /*
   * 微信注册appid universalLink
   * */
-  static Future<boolean> wxRegisterApp(String appId, String universalLink) async {
+  static Future<bool> wxRegisterApp(String appId, String universalLink) async {
     if (Platform.isIOS) {
       final Map<String, dynamic> params = {
         "appId": appId,
         "universalLink": universalLink
       };
       var res = await _channel.invokeMethod("wx_registerApp", params);
-      return  res;
+      return  res as bool;
     }
   }
 
