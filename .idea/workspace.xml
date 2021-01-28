@@ -22,9 +22,12 @@
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/WxPayManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/WxPayManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xx_pay.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +77,7 @@
       <workItem from="1609323165771" duration="1187000" />
       <workItem from="1611651607716" duration="3264000" />
       <workItem from="1611797633878" duration="2100000" />
-      <workItem from="1611802494201" duration="5563000" />
+      <workItem from="1611802494201" duration="6914000" />
     </task>
     <servers />
   </component>

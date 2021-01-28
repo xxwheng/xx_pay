@@ -14,16 +14,39 @@ class WxPayManager: NSObject, WXApiDelegate {
     
     static let instance = WxPayManager();
 
-    var appid = "wx4ac4c47ec2e975db"
+    var appid = ""
+    var universalLink = "";
 
     var result: FlutterResult?
 
-    public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
-        WXApi.registerApp(appid, universalLink: "");
-        if (WXApi.isWXAppInstalled()) {
-            self.result = result;
-            let dic = JSON.init(call.arguments as Any)
+    /// channel方法
+    public func handleRegisterApp(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+        let dic = JSON.init(call.arguments as Any)
+        if let appId = dic["appId"].string,
+           let link = dic["universalLink"].string {
+            self.registerApp(appId: appId, universalLink: link)
+            result(true);
+        } else {
+            result(false);
+        }
+    }
 
+    /// 注册微信appid universalLink;
+    public func registerApp(appId: String, universalLink: String) {
+        WxPayManager.instance.appid = appId;
+        WxPayManager.instance.universalLink = universalLink;
+        WXApi.registerApp(appid, universalLink: universalLink);
+    }
+
+    /// channel方法
+    public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+        self.result = result;
+        if (appid.isEmpty) {
+            result(["code": -7, "result": "请先注册appId \n wxRegisterApp"]);
+            return;
+        }
+        if (WXApi.isWXAppInstalled()) {
+            let dic = JSON.init(call.arguments as Any)
             let request = PayReq.init();
             request.partnerId = dic["partnerId"].stringValue;
             request.prepayId = dic["prepayId"].stringValue;
@@ -35,9 +58,7 @@ class WxPayManager: NSObject, WXApiDelegate {
             WXApi.send(request) { (isTrue) in
                 print(isTrue);
             };
-            print("请求支付");
         } else {
-            print("设备未安装微信");
             result(["code":-6, "result": "设备未安装微信"]);
         }
     }

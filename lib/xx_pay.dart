@@ -28,11 +28,26 @@ class XxPay {
   }
 
   /*
-  * 微信支付
+  * 微信注册appid universalLink
   * */
-  static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, int timeStamp, String sign) async {
+  static Future<bool> wxRegisterApp(String appId, String universalLink) async {
     if (Platform.isIOS) {
       final Map<String, dynamic> params = {
+        "appId": appId,
+        "universalLink": universalLink
+      };
+      var res = await _channel.invokeMethod("wx_registerApp", params);
+      return  WXPayResultBean.fromJson(res);
+    }
+  }
+
+  /*
+  * 微信支付
+  * */
+  static Future<WXPayResultBean> wxPay(String appId, String partnerId, String prepayId, String package, String nonceStr, int timeStamp, String sign) async {
+    if (Platform.isIOS) {
+      final Map<String, dynamic> params = {
+        "appId": appId,
         "partnerId": partnerId,
         "prepayId": prepayId,
         "package": package,
