@@ -30,7 +30,7 @@ class XxPay {
   /*
   * 微信支付
   * */
-  static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, int32 timeStamp, String sign) async {
+  static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, int timeStamp, String sign) async {
     if (Platform.isIOS) {
       final Map<String, dynamic> params = {
         "partnerId": partnerId,

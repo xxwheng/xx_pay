@@ -40,28 +40,36 @@ class WXPayResultBean {
     String code = res["code"].toString();
     switch (code) {
       case "0":
-        _code = "支付成功";
+        _code = WXErrCode.success;
+        _message = "支付成功";
         break;
       case "-1":
-        _code = "普通错误类型";
+        _code = WXErrCode.common;
+        _message = "普通错误类型";
         break;
       case "-2":
-        _code = "用户取消支付";
+        _code = WXErrCode.cancel;
+        _message = "用户取消支付";
         break;
       case "-3":
-        _code = "发送失败";
+        _code = WXErrCode.sendFail;
+        _message = "发送失败";
         break;
       case "-4":
-        _code = "授权失败";
+        _code = WXErrCode.authDeny;
+        _message = "授权失败";
         break;
       case "-5":
-        _code = "微信不支持";
+        _code = WXErrCode.unSupport;
+        _message = "微信不支持";
         break;
       case "-6":
-        _code = "该设备未安装微信";
+        _code = WXErrCode.unInstall;
+        _message = "该设备未安装微信";
         break;
       default:
-        _code = "其它错误";
+        _code = WXErrCode.other;
+        _message = "其它错误";
         break;
     }
 
