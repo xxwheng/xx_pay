@@ -34,6 +34,10 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+  void _onWxPay() {
+    XxPay.wxPay("1507026001", "wx28140120727905a6b75f69b1f8643e0000", "Sign=WXPay", "2o7h9nqT4EkRAqoG", 1611813680, "5F59EF5040742C6928C07BD00AF6D51B");
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -47,7 +51,7 @@ class _MyAppState extends State<MyApp> {
             children: [
               Text("支付结果: $result"),
               GestureDetector(
-                onTap: _onPay,
+                onTap: _onWxPay,
                 child: Container(
                     width: 200,
                     height: 40,

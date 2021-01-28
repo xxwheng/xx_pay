@@ -19,6 +19,7 @@ class WxPayManager: NSObject, WXApiDelegate {
     var result: FlutterResult?
 
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+        WXApi.registerApp(appid, universalLink: "");
         if (WXApi.isWXAppInstalled()) {
             self.result = result;
             let dic = JSON.init(call.arguments as Any)
@@ -31,8 +32,12 @@ class WxPayManager: NSObject, WXApiDelegate {
             // UInt32 10位
             request.timeStamp = dic["timeStamp"].uInt32Value;
             request.sign = dic["sign"].stringValue;
-            WXApi.send(request, completion: nil);
+            WXApi.send(request) { (isTrue) in
+                print(isTrue);
+            };
+            print("请求支付");
         } else {
+            print("设备未安装微信");
             result(["code":-6, "result": "设备未安装微信"]);
         }
     }
