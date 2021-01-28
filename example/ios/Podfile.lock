@@ -2,10 +2,12 @@ PODS:
   - AlipaySDK-iOS (15.7.9)
   - Flutter (1.0.0)
   - SwiftyJSON (5.0.0)
+  - WechatOpenSDK (1.8.7.1)
   - xx_pay (0.0.1):
     - AlipaySDK-iOS
     - Flutter
     - SwiftyJSON
+    - WechatOpenSDK
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -15,6 +17,7 @@ SPEC REPOS:
   trunk:
     - AlipaySDK-iOS
     - SwiftyJSON
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   Flutter:
@@ -26,7 +29,8 @@ SPEC CHECKSUMS:
   AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
-  xx_pay: 7edac58e4deb6f93c58a5e0a50472e3433559b5f
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  xx_pay: c806027b10d78499a2375c0efae64a68e59fc071
 
 PODFILE CHECKSUM: 1695a545dca65ba6ecdbce51714593c30b6c984a
 

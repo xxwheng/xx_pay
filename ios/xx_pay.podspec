@@ -19,6 +19,7 @@ A new flutter plugin project.
   # https://opendocs.alipay.com/open/54/104509
   s.dependency 'AlipaySDK-iOS'
   s.dependency 'SwiftyJSON'
+  s.dependency 'WechatOpenSDK'
   s.platform = :ios, '9.0'
 
 

@@ -20,14 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/WxPayManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/wxpay_result_bean.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Classes/WxPayManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/wxpay_result_bean.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/AliPayManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/AliPayManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/AppManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/AppManager.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/SwiftXxPayPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/SwiftXxPayPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/Classes/XxPayPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/xx_pay.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/ios/xx_pay.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/alipay_result_bean.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/alipay_result_bean.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/xx_pay/lib/xx_pay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AliPayManager.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/AppManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/AppManager.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftXxPayPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/XxPayPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/xx_pay.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/xx_pay.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/alipay_result_bean.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/alipay_result_bean.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xx_pay.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +78,9 @@
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -72,7 +95,9 @@
       <updated>1609297967186</updated>
       <workItem from="1609297974582" duration="7278000" />
       <workItem from="1609323165771" duration="1187000" />
-      <workItem from="1611651607716" duration="2768000" />
+      <workItem from="1611651607716" duration="3264000" />
+      <workItem from="1611797633878" duration="2100000" />
+      <workItem from="1611802494201" duration="1102000" />
     </task>
     <servers />
   </component>
@@ -92,6 +117,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="157" key="#Project_Structure" timestamp="1611802463340">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="555" y="157" key="#Project_Structure/0.23.1920.977@0.23.1920.977" timestamp="1611802463340" />
     <state width="1580" height="387" key="GridCell.Tab.0.bottom" timestamp="1609376934018">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

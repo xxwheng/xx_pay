@@ -19,6 +19,8 @@ public class AppManager {
         print(url)
         if (url.host == "safepay") {
             AlipayManager.instance.handleOpenURL(url: url);
+        } else if (url.scheme == WxPayManager.instance.appid) {
+            WXApi.handleOpen(url, delegate: WxPayManager.instance);
         }
         return true;
     }

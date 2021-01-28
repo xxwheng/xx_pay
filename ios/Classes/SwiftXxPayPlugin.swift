@@ -18,6 +18,8 @@ public class SwiftXxPayPlugin: NSObject, FlutterPlugin {
     public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
         if (call.method == "xx_alipay_pay") {
             AlipayManager.instance.handle(call, result: result);
+        } else if (call.method == "xx_wxpay") {
+            WxPayManager.instance.handle(call, result: result);
         }
     }
 

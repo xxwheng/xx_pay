@@ -15,6 +15,7 @@ enum AliPayCode {
   otherError,
 }
 
+// 支付宝支付结果
 class AliPayResultBean {
   AliPayCode _code;
   String _message;

@@ -1,5 +1,7 @@
 #import "XxPayPlugin.h"
 #import <AlipaySDK/AlipaySDK.h>
+#import "WXApi.h"
+#import "WXApiObject.h"
 
 #if __has_include(<xx_pay/xx_pay-Swift.h>)
 #import <xx_pay/xx_pay-Swift.h>

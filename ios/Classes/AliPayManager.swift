@@ -33,7 +33,7 @@ class AlipayManager: NSObject {
     /// - Parameters:
     ///   - orderStr: 支付订单信息
     ///   - scheme: scheme
-    public func pay(orderStr: String, scheme: String) {
+    private func pay(orderStr: String, scheme: String) {
         print("开始支付: \(orderStr) \n \(scheme)")
         AlipaySDK.defaultService()?.payOrder(orderStr, fromScheme: scheme, callback: { (res) in
             print(res);
