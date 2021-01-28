@@ -1,4 +1,4 @@
-enum WXErrCode
+enum WXErrCode {
   /* 成功0 */
   success,
   /* -1普通错误类型 签名错误、未注册APPID、项目设置APPID不正确、注册的APPID与设置的不匹配、其他异常等 */
