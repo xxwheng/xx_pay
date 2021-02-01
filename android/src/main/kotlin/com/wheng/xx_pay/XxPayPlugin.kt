@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Context
 import androidx.annotation.NonNull
 import com.wheng.xx_pay.alipay.AlipayManager
+import com.wheng.xx_pay.wxapi.WXPayManager
 
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -34,15 +35,24 @@ class XxPayPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
 
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-    if (call.method == "getPlatformVersion") {
-      result.success("Android ${android.os.Build.VERSION.RELEASE}")
-    } else if (call.method == "xx_alipay_pay") {
-      AlipayManager.result = result;
-      call.argument<String>("orderStr")?.let { AlipayManager.toPay(it, activity) }
-    } else if (call.method == "getTest") {
-      result.success(mapOf("code" to "9000", "message" to "this is message"))
-    } else {
-      result.notImplemented()
+    when (call.method) {
+      "xx_alipay_pay" -> {
+        AlipayManager.result = result;
+        call.argument<String>("orderStr")?.let { AlipayManager.toPay(it, activity) }
+      }
+      "wx_registerApp" -> {
+        /// 微信注册APPID
+        call.argument<String>("appId")?.let {
+          WXPayManager.registerAppId(activity.applicationContext, it)
+        }
+      }
+      "xx_wxpay" -> {
+        /// 微信支付
+        WXPayManager.wxPay(call, result)
+      }
+      else -> {
+        result.notImplemented()
+      }
     }
   }
 

@@ -52,7 +52,7 @@ class XxPay {
   /*
   * 微信支付
   * */
-  static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, int timeStamp, String sign) async {
+  static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, String timeStamp, String sign) async {
     final Map<String, dynamic> params = {
       "partnerId": partnerId,
       "prepayId": prepayId,
@@ -66,20 +66,8 @@ class XxPay {
       return  WXPayResultBean.fromJson(res);
     } else if (Platform.isAndroid) {
       var res = await _channel.invokeMethod("xx_wxpay", params);
-      return null;
+      return  WXPayResultBean.fromJson(res);
     }
     return null;
-  }
-
-  static Future<bool> wxTest() async {
-    final Map<String, dynamic> params = {
-      "id": "123456789"
-    };
-    if (Platform.isAndroid) {
-      print("点击测试");
-      var res = await _channel.invokeMethod("getTest", params);
-      print(res);
-    }
-    return true;
   }
 }

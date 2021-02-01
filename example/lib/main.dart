@@ -34,7 +34,13 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _onWxPay() {
-    XxPay.wxPay("1507026001", "wx281433297927528637712c844c164a0000", "Sign=WXPay", "tDwvBZlf0Sr520h7", 1611815609, "B00D5A7BCFE499D10E62B2D9759B1B5D");
+    XxPay.wxPay(
+        "1507026001",
+        "wx011347345335544114ce0c5d9ff5dc0000",
+        "Sign=WXPay",
+        "gg9xeHjB8JuHcH3V",
+        "1612158454",
+        "CBDA84B91B1966BAA65E98F37D87737F");
   }
 
   void _registerAppId() {
@@ -42,9 +48,6 @@ class _MyAppState extends State<MyApp> {
     XxPay.wxRegisterApp(appId, "");
   }
 
-  void _testTap() {
-    XxPay.wxTest();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +67,7 @@ class _MyAppState extends State<MyApp> {
                     width: 200,
                     height: 40,
                     color: Colors.red,
-                    child: Center(child: Text("点击支付，两秒后返回"))
+                    child: Center(child: Text("点击微信支付"))
                 ),
               ),
               GestureDetector(
@@ -83,15 +86,6 @@ class _MyAppState extends State<MyApp> {
                     height: 40,
                     color: Colors.red,
                     child: Center(child: Text("点击支付宝支付"))
-                ),
-              ),
-              GestureDetector(
-                onTap: _testTap,
-                child: Container(
-                    width: 200,
-                    height: 40,
-                    color: Colors.red,
-                    child: Center(child: Text("点击测试"))
                 ),
               ),
             ],
