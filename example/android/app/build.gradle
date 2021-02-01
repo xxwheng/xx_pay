@@ -38,36 +38,33 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.kw.ddys"
+        applicationId "***.***.***" // 项目包名
         minSdkVersion 16
         targetSdkVersion 29
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
 
-
-
-
     signingConfigs {
         debug {
-            keyAlias 'ddys'
-            keyPassword 'DDYSStore'
-            storeFile file("DDYS_Android_Key.jks")
-            storePassword 'DDYSStore'
+            keyAlias '***'
+            keyPassword '***'
+            storeFile new File(System.getenv('JKS_HOME'), '***.jks')
+            storePassword '***'
             v2SigningEnabled true
         }
         release {
-            keyAlias 'ddys'
-            keyPassword 'DDYSStore'
-            storeFile file("DDYS_Android_Key.jks")
-            storePassword 'DDYSStore'
+            keyAlias '***'
+            keyPassword '***'
+            storeFile new File(System.getenv('JKS_HOME'), '***.jks')
+            storePassword '***'
             v2SigningEnabled true
         }
     }
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.release // 这里改为release 便于调试
         }
         release {
             // TODO: Add your own signing config for the release build.

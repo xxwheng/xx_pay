@@ -30,7 +30,9 @@ class XxPay {
   }
 
   /*
-  * 微信注册appid universalLink
+  * 微信注册
+  * --> appid
+  * --> universalLink
   * */
   static Future<bool> wxRegisterApp(String appId, String universalLink) async {
     final Map<String, dynamic> params = {
@@ -49,6 +51,12 @@ class XxPay {
 
   /*
   * 微信支付
+  * --> partnerId
+  * --> prepayId
+  * --> package
+  * --> nonceStr
+  * --> timeStamp
+  * --> sign
   * */
   static Future<WXPayResultBean> wxPay(String partnerId, String prepayId, String package, String nonceStr, String timeStamp, String sign) async {
     final Map<String, dynamic> params = {
