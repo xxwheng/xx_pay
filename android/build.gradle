@@ -63,6 +63,5 @@ android {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
-//    implementation (name: "alipaysdk-15.8.01.210112203525", ext: 'aar')
     implementation "com.alipay:alipaysdk:15.8.01"
 }
