@@ -50,6 +50,7 @@
     <ol>
           <li class="section-title">Libraries</li>
           <li><a href="alipay_result_bean/alipay_result_bean-library.html">alipay_result_bean</a></li>
+          <li><a href="wxpay_result_bean/wxpay_result_bean-library.html">wxpay_result_bean</a></li>
           <li><a href="xx_pay/xx_pay-library.html">xx_pay</a></li>
     </ol>
   </div>
@@ -57,8 +58,96 @@
   <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
       <section class="desc markdown">
         <h1 id="xx_pay">xx_pay</h1>
-<p>Alipay iOS-Swift plugin project.</p>
-<h2 id="getting-started">Getting Started</h2>
+<p>A Flutter pluin for iOS and Android for AliPay and WXPay</p>
+<p>支付宝、微信支付  Flutter插件，支持iOS和Android</p>
+<h3 id="pubspecyaml">在pubspec.yaml文件导入</h3>
+<pre class="language-dart"><code class="language-dart">dependencies:
+  xx_pay:
+      git: https://github.com/xxwheng/xx_pay.git
+</code></pre>
+<h2 id="ios">iOS配置</h2>
+<h3 id="-iospodfile">修改项目 ios/podfile文件</h3>
+<p>注释掉 use_frameworks!</p>
+<pre class="language-dart"><code># use_frameworks!
+</code></pre>
+<p>添加 URL Types</p>
+<p>target--info--URL Types</p>
+<p>​	alipay 	URLSchemes</p>
+<p>​	weixin 	URLSchemes</p>
+<p>修改 Info.plist： 添加：</p>
+<pre class="language-dart"><code>&lt;key&gt;LSApplicationQueriesSchemes&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;wechat&lt;/string&gt;
+	&lt;string&gt;weixin&lt;/string&gt;
+	&lt;string&gt;weixinULAPI&lt;/string&gt;
+	&lt;string&gt;alipays&lt;/string&gt;
+	&lt;string&gt;alipay&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+&lt;dict&gt;
+	&lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;NSAllowsArbitraryLoadsInWebContent&lt;/key&gt;
+	&lt;true/&gt;
+&lt;/dict&gt;
+</code></pre>
+<h2 id="android">Android配置:</h2>
+<h4 id="">无</h4>
+<hr>
+<h3 id="appiduniversallink">调用支付之前先注册APPID和UniversalLink</h3>
+<pre class="language-dart"><code>/// appid Android和iOS都要用到， universalLink单iOS使用
+XxPay.wxRegisterApp(appId, universalLink);
+
+</code></pre>
+<h3 id="-2">调用方式：</h3>
+<h4 id="-3">支付支付</h4>
+<pre class="language-dart"><code>/// 支付宝调用
+/// OrderInfoStr 订单支付串
+/// scheme 需和URL Types中填写的一致
+/// res 非iOS、Android平台，返回为空
+XxPay.aliPay(OrderInfoStr, scheme).then((res) {
+	// res: AliPayResultBean类型
+})
+</code></pre>
+<p>微信支付</p>
+<pre class="language-dart"><code>/// 微信支付调用
+/// partnerId 商户号
+/// prepayId	预支付交易会话ID
+/// package		Sign=WXPay
+/// nonceStr	随机字符串
+/// timeStamp	时间戳10位
+/// sign			签名
+/// res 非iOS、Android平台，返回为空
+XxPay.wxPay(
+        "partnerId",
+        "prepayId",
+        "package",
+        "nonceStr",
+        "timeStamp",
+        "sign").then((res) {
+        // res: WXPayResultBean类型
+})
+</code></pre>
+<h3 id="-4">回调类说明</h3>
+<pre class="language-dart"><code>支付宝支付返回码枚举	
+AliPayCode
+支付宝支付返回结果类
+AliPayResultBean {
+	AliPayCode code;
+	String message;
+	String resultStr;
+}
+
+微信支付返回码枚举	
+WXErrCode
+微信支付返回结果类
+WXPayResultBean {
+	WXErrCode code;
+	String message;
+	String resultStr;
+}
+</code></pre>
+<hr>
 <p>environment:
 sdk: "&gt;=2.7.0 &lt;3.0.0"
   flutter: "&gt;=1.20.0"</p>
@@ -76,6 +165,12 @@ samples, guidance on mobile development, and a full API reference.</p>
           <dl>
             <dt id="alipay_result_bean">
               <span class="name"><a href="alipay_result_bean/alipay_result_bean-library.html">alipay_result_bean</a></span>             
+            </dt>
+            <dd>
+               
+            </dd>
+            <dt id="wxpay_result_bean">
+              <span class="name"><a href="wxpay_result_bean/wxpay_result_bean-library.html">wxpay_result_bean</a></span>             
             </dt>
             <dd>
                

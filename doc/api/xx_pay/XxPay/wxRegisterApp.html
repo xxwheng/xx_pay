@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-  <meta name="description" content="API docs for the aliPay method from the XxPay class, for the Dart programming language.">
-  <title>aliPay method - XxPay class - xx_pay library - Dart API</title>
+  <meta name="description" content="API docs for the wxRegisterApp method from the XxPay class, for the Dart programming language.">
+  <title>wxRegisterApp method - XxPay class - xx_pay library - Dart API</title>
 
   
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400i,400,300|Source+Sans+Pro:400,300,700" rel="stylesheet">
@@ -27,9 +27,9 @@
     <li><a href="../../index.html">xx_pay</a></li>
     <li><a href="../../xx_pay/xx_pay-library.html">xx_pay</a></li>
     <li><a href="../../xx_pay/XxPay-class.html">XxPay</a></li>
-    <li class="self-crumb">aliPay method</li>
+    <li class="self-crumb">wxRegisterApp method</li>
   </ol>
-  <div class="self-name">aliPay</div>
+  <div class="self-name">wxRegisterApp</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -48,7 +48,7 @@
       <li><a href="../../index.html">xx_pay</a></li>
       <li><a href="../../xx_pay/xx_pay-library.html">xx_pay</a></li>
       <li><a href="../../xx_pay/XxPay-class.html">XxPay</a></li>
-      <li class="self-crumb">aliPay method</li>
+      <li class="self-crumb">wxRegisterApp method</li>
     </ol>
     
     <h5>XxPay class</h5>
@@ -82,32 +82,32 @@
   </div><!--/.sidebar-offcanvas-->
 
   <div id="dartdoc-main-content" class="col-xs-12 col-sm-9 col-md-8 main-content">
-      <div><h1><span class="kind-method">aliPay</span> method </h1></div>
+      <div><h1><span class="kind-method">wxRegisterApp</span> method </h1></div>
 
     <section class="multi-line-signature">
-      <span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../../alipay_result_bean/AliPayResultBean-class.html">AliPayResultBean</a></span>&gt;</span></span>
-            <span class="name ">aliPay</span>
-(<wbr><ol class="parameter-list"><li><span class="parameter" id="aliPay-param-orderStr"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">orderStr</span>, </span></li>
-<li><span class="parameter" id="aliPay-param-scheme"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">scheme</span></span></li>
+      <span class="returntype"><a href="https://api.flutter.dev/flutter/dart-async/Future-class.html">Future</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.flutter.dev/flutter/dart-core/bool-class.html">bool</a></span>&gt;</span></span>
+            <span class="name ">wxRegisterApp</span>
+(<wbr><ol class="parameter-list"><li><span class="parameter" id="wxRegisterApp-param-appId"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">appId</span>, </span></li>
+<li><span class="parameter" id="wxRegisterApp-param-universalLink"><span class="type-annotation"><a href="https://api.flutter.dev/flutter/dart-core/String-class.html">String</a></span> <span class="parameter-name">universalLink</span></span></li>
 </ol>)
       
     </section>
     
     <section class="summary source-code" id="source">
       <h2><span>Implementation</span></h2>
-      <pre class="language-dart"><code class="language-dart">static Future&lt;AliPayResultBean&gt; aliPay(String orderStr, String scheme) async {
+      <pre class="language-dart"><code class="language-dart">static Future&lt;bool&gt; wxRegisterApp(String appId, String universalLink) async {
   final Map&lt;String, dynamic&gt; params = {
-    &quot;orderStr&quot;: orderStr,
-    &quot;scheme&quot;: scheme
+    &quot;appId&quot;: appId,
+    &quot;universalLink&quot;: universalLink
   };
   if (Platform.isIOS) {
-    var res = await _channel.invokeMethod(&quot;xx_alipay_pay&quot;, params);
-    return AliPayResultBean.fromJson(res);
+    var res = await _channel.invokeMethod(&quot;wx_registerApp&quot;, params);
+    return  res as bool;
   } else if (Platform.isAndroid) {
-    var res = await _channel.invokeMethod(&quot;xx_alipay_pay&quot;, params);
-    return AliPayResultBean.fromJson(res);
+    var res = await _channel.invokeMethod(&quot;wx_registerApp&quot;, params);
+    return  res as bool;
   }
-  return null;
+  return false;
 }</code></pre>
     </section>
 
