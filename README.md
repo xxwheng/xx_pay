@@ -1,10 +1,8 @@
 # xx_pay
 
-支付宝、微信支付  Flutter插件，支持iOS和Android
-
-Alipay iOS-Swift plugin project.
-
 A Flutter pluin for iOS and Android for AliPay and WXPay
+
+支付宝、微信支付  Flutter插件，支持iOS和Android
 
 
 
@@ -13,7 +11,7 @@ A Flutter pluin for iOS and Android for AliPay and WXPay
 ```dart
 dependencies:
 	xx_pay:
-  	git: https://github.com/xxwheng/xx_pay.git
+      git: https://github.com/xxwheng/xx_pay.git
 ```
 
 
@@ -28,7 +26,9 @@ dependencies:
 
 
 
-添加target--info--URL Types
+添加 URL Types
+
+target--info--URL Types
 
 ​	alipay 	URLSchemes
 
@@ -59,6 +59,14 @@ dependencies:
 ## Android配置:
 
 #### 无
+
+
+
+
+
+
+
+----
 
 
 
