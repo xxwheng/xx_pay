@@ -71,12 +71,6 @@ class WxPayManager: NSObject, WXApiDelegate {
     func onResp(_ resp: BaseResp) {
         if let payRes = resp as? PayResp {
             self.result?(["code":payRes.errCode, "result": payRes.errStr]);
-//            WXSuccess
-//            WXErrCodeCommon
-//            WXErrCodeUserCancel
-//            WXErrCodeSentFail
-//            WXErrCodeAuthDeny
-//            WXErrCodeUnsupport
         }
     }
 
