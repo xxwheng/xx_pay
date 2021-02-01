@@ -1,7 +1,6 @@
 name: xx_pay
-description: Alipay iOS-Swift plugin project.
+description: A Flutter pluin for iOS and Android for AliPay and WXPay.
 version: 0.0.1
-author: wheng
 homepage: https://github.com/xxwheng/xx_pay.git
 
 environment:
