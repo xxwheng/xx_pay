@@ -10,7 +10,7 @@ A Flutter pluin for iOS and Android for AliPay and WXPay
 
 ```dart
 dependencies:
-	xx_pay:
+  xx_pay:
       git: https://github.com/xxwheng/xx_pay.git
 ```
 
