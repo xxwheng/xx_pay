@@ -24,7 +24,7 @@ class XxPay {
       return AliPayResultBean.fromJson(res);
     } else if (Platform.isAndroid) {
       var res = await _channel.invokeMethod("xx_alipay_pay", params);
-      print(res);
+      return AliPayResultBean.fromJson(res);
     }
     return null;
   }
