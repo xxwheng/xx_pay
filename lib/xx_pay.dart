@@ -59,6 +59,7 @@ class XxPay {
   * --> sign
   * */
   static Future<WXPayResultBean> wxPay(Map<String, dynamic> wxMap) async {
+    print(wxMap);
     final Map<String, dynamic> params = {
       "partnerId": wxMap["partnerId"].toString(),
       "prepayId": wxMap["prepayId"].toString(),
@@ -67,6 +68,7 @@ class XxPay {
       "timeStamp": wxMap["timeStamp"].toString(),
       "sign": wxMap["sign"].toString(),
     };
+    print(params);
     if (Platform.isIOS) {
       var res = await _channel.invokeMethod("xx_wxpay", params);
       return  WXPayResultBean.fromJson(res);
