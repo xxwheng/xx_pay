@@ -12,10 +12,10 @@ object WXPayManager {
     lateinit var api: IWXAPI
     var result: MethodChannel.Result ? = null
 
-    fun registerAppId(context: Context, appId: String) {
+    fun registerAppId(context: Context, appId: String): Boolean {
         WXPayManager.appId = appId;
         api = WXAPIFactory.createWXAPI(context, appId, true)
-        api.registerApp(appId)
+        return api.registerApp(appId)
     }
 
     fun wxPay(call: MethodCall, result: MethodChannel.Result) {

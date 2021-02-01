@@ -41,10 +41,8 @@ class XxPay {
       var res = await _channel.invokeMethod("wx_registerApp", params);
       return  res as bool;
     } else if (Platform.isAndroid) {
-      print("注册APPID");
       var res = await _channel.invokeMethod("wx_registerApp", params);
-      print(res);
-      return  false;
+      return  res as bool;
     }
     return false;
   }

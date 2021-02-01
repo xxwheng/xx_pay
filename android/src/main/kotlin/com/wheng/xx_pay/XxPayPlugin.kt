@@ -25,14 +25,10 @@ class XxPayPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   private lateinit var channel : MethodChannel
   private lateinit var activity: Activity
 
-
-
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     channel = MethodChannel(flutterPluginBinding.binaryMessenger, "xx_pay")
     channel.setMethodCallHandler(this)
   }
-
-
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     when (call.method) {
@@ -43,7 +39,10 @@ class XxPayPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
       "wx_registerApp" -> {
         /// 微信注册APPID
         call.argument<String>("appId")?.let {
-          WXPayManager.registerAppId(activity.applicationContext, it)
+          val res = WXPayManager.registerAppId(activity.applicationContext, it)
+          result.success(true)
+        }?:let {
+          result.success(false)
         }
       }
       "xx_wxpay" -> {
