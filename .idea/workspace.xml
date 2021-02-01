@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd7d25a-c1d4-4434-8eb3-397cf35173d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/xx_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/xx_pay.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <workItem from="1611797633878" duration="2100000" />
       <workItem from="1611802494201" duration="21056000" />
       <workItem from="1611912399630" duration="13944000" />
-      <workItem from="1612164063174" duration="663000" />
+      <workItem from="1612164063174" duration="818000" />
     </task>
     <servers />
   </component>

@@ -36,15 +36,13 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _onWxPay() {
-    final Map<String,dynamic> payMap = {
-      "partnerId": partnerId,
-      "prepayId": prepayId,
-      "package": package,
-      "nonceStr": nonceStr,
-      "timeStamp": timeStamp,
-      "sign": sign,
-    };
-    XxPay.wxPay(payMap);
+    XxPay.wxPay(
+        "partnerId",
+        "prepayId",
+        "package",
+        "nonceStr",
+        "timeStamp",
+        "sign");
   }
 
   void _registerAppId() {
